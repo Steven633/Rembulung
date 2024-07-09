@@ -38,6 +38,24 @@ body, html {
     padding-right: 75px;
 }
 
+.Judullay{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.jul1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc{
+    padding-top: 8px;
+    font-size: 18px;
+}
+
 .brand-title {
     font-size: 1.5em;
     color: white;
@@ -184,6 +202,44 @@ h1 {
         display: flex;
     }
 
+    .image1{
+        height: 700px;
+    }
+
+    .image-container {
+        height: 100vh; /* Ensure the container takes full viewport height on mobile */
+    }
+
+    .image-container img {
+        height: 100%; /* Image height matches viewport height */
+        width: 100%; /* Image width matches viewport width */
+        object-fit: cover; /* Ensures the image covers the entire container */
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .text1-overlay {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 14px;
+        font-weight: medium;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
     .navbar {
         padding-top: 10px;
         padding-left: 25px;
@@ -208,13 +264,27 @@ h1 {
     .navbar-links.active {
         display: flex;
     }
-    .image1 {
-        width: 100%;
-        height: auto;
-    }
 
     .service-box {
         padding: 15px;
+    }
+
+    .Judullay{
+        padding-top: 27px;
+        padding-bottom: 22px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .jul1{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .desc{
+        padding-top: 4px;
+        font-size: 14px;
     }
 }
 
