@@ -184,6 +184,12 @@ h1 {
         display: flex;
     }
 
+    .navbar {
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     .navbar-links {
         display: none;
         width: 100%;
